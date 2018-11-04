@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Rick & Morty Character
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p> -->
+  <ion-item>
+    <ion-input type="text" [(ngModel)] = "inputID" placeholder="Choose from 1 to 493"></ion-input>
+  </ion-item>
+  <button ion-button (click)= "getPosts()" >Search</button>
+  <ion-card>
+    <h1>Information</h1>
+    <ion-list>
+      <ion-item>
+        <p> ID : {{datID}}</p>
+        <p> Title : {{datTitle}}</p>
+        <p> Gender : {{datGender}}</p>
+        <p> Species : {{datSpecies}}</p>
+        <p> Status : {{datStatus}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+  
+  <ion-content padding>
+      <ion-card>
+          <h1>All Rick & Morty Character</h1>
+          <ion-list > 
+              <ion-item *ngFor = "let data of array ">
+                  <p> ID : {{data.id}}</p>
+                  <p> Title : {{data.name}}</p>
+                  <p> Gender : {{data.status}}</p>
+                  <p> Species : {{data.species}}</p>
+                  <p> Status : {{data.gender}}</p>
+                </ion-item>
+              </ion-list>
+          </ion-card>
+  
+  </ion-content>
+  
+</ion-content>
+

@@ -1,0 +1,7 @@
+{
+  "name": "mencuba",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
