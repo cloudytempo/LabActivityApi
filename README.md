@@ -11,5 +11,5 @@ $ git clone https://github.com/cloudytempo/LabActivityApi.git
 # License
 This code is for educational purposes, no license attach to it.
 # Screenshot
-![](SSOne.png)
-![](SSTwo.png)
+![Screenshot 1](https://github.com/cloudytempo/LabActivityApi/blob/master/Screenshot/SSOne.PNG)
+![Screenshot 2](https://github.com/cloudytempo/LabActivityApi/blob/master/Screenshot/SSTwo.PNG)
